@@ -27,7 +27,7 @@ class _AddProductFormState extends State<AddProductForm> {
   List<String> _categories = ['Coffee', 'Juice', 'Food', 'Other'];
   Future<void> _pickImage( ) async {
     print("dddddd");
-    final pickedFile = await ImagePicker().pickImage(source: ImageSource.camera);
+    final pickedFile = await ImagePicker().pickImage(source: ImageSource.gallery);
             print("**************************");
             print(pickedFile);
             print("**************************");
